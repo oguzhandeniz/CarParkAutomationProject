@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CarPark.exe" version="1.0.0.2" publicKeyToken="719dc6ccf619e177" language="neutral" processorArchitecture="amd64" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CarPark" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="CarPark.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CarPark.exe" size="483800">
+      <assemblyIdentity name="CarPark" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SlLBkWJW8HcY27zQ0OSWUAULK0kGFu14qLNsyY+JzOI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CarPark.exe.config" size="523">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7NUnu2zsuMoZF6KKc7E42cNPrRscuNu2ETrAD9OWk7s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="otoparkveri.accdb" size="720896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2rDUAryMgVlVpRnTtP+gcsQbLO8GGEIu5hc9WwT+jwE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-2P1SQP2\Oğuz" issuerKeyHash="b02df7d33b38790285415604521d9268012d20f2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>O1cEi+mqKVHHPE5Qw2pbHg+6aUHnjVTFkadhHl/zPjk=</DigestValue></Reference></SignedInfo><SignatureValue>MPogEPuGAKPeyLA51FpvXU5Ny0LOVNX5AiwGL75xqLkTdWW84SJbRii2h3/f7UGJFFWJ8u5oGfKDknPeYYqXPWJ+XLuW7S5kDofCAsnrp6mqQKVqwAOErhUU1+Eg268k5lnrNYMzbmBGP89JY4uV5+R4fYJDQnnVUzf6ccPizC4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yT2HbMiJBBJVGHl0FWSaTzYh83N/qkrUsh0owdUb3Aj/4zFvGOwUn/aePG4xgkzn8oBtHclAPT7BlLQ7JBXaau1WQR+BsGNJwDrFVWT5o3xbQ1JB7Fj7A9HMT2Uq3lb2dcPMZcbyKElgrRMInXJ7IVMXA/NwxGRL24/UiLgOBsE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="393ef35f1e61a791c5548de74169ba0f1e5b6ac3504e3cc75129aae98b04573b" Description="" Url=""><as:assemblyIdentity name="CarPark.exe" version="1.0.0.2" publicKeyToken="719dc6ccf619e177" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2P1SQP2\Oğuz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/ZMiOFLeG5q1I7uT5majLGZT8n5IrMOldeInhRdjuNQ=</DigestValue></Reference></SignedInfo><SignatureValue>H42ofE9ds3NBf9JnquXkoz7QOgVWjvD5WLdEOpEddPv7tAKvWMgfaqRAaj/3bGcQXmdVQwsvoHo6fhShqx/ZSk9LouIRCrRosVairmryyeeJaqgBu3hjLpXpvp5fcBMAV8GrIXu5TX03A29CiAYO7GcP8FLWUqovQ8u5gbTL32o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yT2HbMiJBBJVGHl0FWSaTzYh83N/qkrUsh0owdUb3Aj/4zFvGOwUn/aePG4xgkzn8oBtHclAPT7BlLQ7JBXaau1WQR+BsGNJwDrFVWT5o3xbQ1JB7Fj7A9HMT2Uq3lb2dcPMZcbyKElgrRMInXJ7IVMXA/NwxGRL24/UiLgOBsE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQLjRMXhdK8alB5HC7qdzoizANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADIAUAAxAFMAUQBQADIAXABPAR8AdQB6MB4XDTIzMDEwMzE3MTUzNVoXDTI0MDEwMzIzMTUzNVowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQAyAFAAMQBTAFEAUAAyAFwATwEfAHUAejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyT2HbMiJBBJVGHl0FWSaTzYh83N/qkrUsh0owdUb3Aj/4zFvGOwUn/aePG4xgkzn8oBtHclAPT7BlLQ7JBXaau1WQR+BsGNJwDrFVWT5o3xbQ1JB7Fj7A9HMT2Uq3lb2dcPMZcbyKElgrRMInXJ7IVMXA/NwxGRL24/UiLgOBsECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBvwJv8e/5qQtW0bSqxAJRtprxpwvNTFoU8KZL4qIACRxt+j+K7hevUFCpc7E0bg8/QEvmfI2hjuAzVVTQi+wydkn3tMWkazHiVWIF25fbbuMFVQPbJyEb6OMfp+e8SNcBcrPk8gI8ed5XvH18HlMOG0ktf/zMiaKusLoRDQVI17g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

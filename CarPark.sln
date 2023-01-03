@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPark", "CarPark\CarPark.csproj", "{6660B60E-7721-4CA4-9394-0CECE7071CBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6660B60E-7721-4CA4-9394-0CECE7071CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6660B60E-7721-4CA4-9394-0CECE7071CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6660B60E-7721-4CA4-9394-0CECE7071CBF}.Debug|x64.ActiveCfg = Debug|x64
+		{6660B60E-7721-4CA4-9394-0CECE7071CBF}.Debug|x64.Build.0 = Debug|x64
+		{6660B60E-7721-4CA4-9394-0CECE7071CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6660B60E-7721-4CA4-9394-0CECE7071CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6660B60E-7721-4CA4-9394-0CECE7071CBF}.Release|x64.ActiveCfg = Release|x64
+		{6660B60E-7721-4CA4-9394-0CECE7071CBF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8C5C386-F899-4157-9A64-E74F7C6DF2BF}
+	EndGlobalSection
+EndGlobal
